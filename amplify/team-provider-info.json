@@ -17,6 +17,12 @@
           "deploymentBucketName": "amplify-auth-dev-155138-deployment",
           "s3Key": "amplify-builds/auth-334a2b5377725a555a73-build.zip"
         }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dz3fglzosqxus",
+          "type": "cicd"
+        }
       }
     }
   }
