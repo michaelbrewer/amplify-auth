@@ -15,7 +15,7 @@
       "function": {
         "auth": {
           "deploymentBucketName": "amplify-auth-dev-155138-deployment",
-          "s3Key": "amplify-builds/auth-334a2b5377725a555a73-build.zip"
+          "s3Key": "amplify-builds/auth-676137715862736c4d4b-build.zip"
         }
       },
       "hosting": {
