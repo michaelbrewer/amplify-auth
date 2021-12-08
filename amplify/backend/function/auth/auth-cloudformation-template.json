@@ -2,11 +2,6 @@
   "AWSTemplateFormatVersion": "2010-09-09",
   "Description": "{\"createdOn\":\"Mac\",\"createdBy\":\"Amplify\",\"createdWith\":\"7.6.2\",\"stackType\":\"function-Lambda\",\"metadata\":{}}",
   "Parameters": {
-    "CloudWatchRule": {
-      "Type": "String",
-      "Default": "NONE",
-      "Description": " Schedule Expression"
-    },
     "deploymentBucketName": {
       "Type": "String"
     },
@@ -69,7 +64,12 @@
             },
             "REGION": {
               "Ref": "AWS::Region"
-            }
+            },
+            "POWERTOOLS_SERVICE_NAME": "auth",
+            "POWERTOOLS_LOGGER_LOG_EVENT": "true",
+            "POWERTOOLS_TRACER_CAPTURE_RESPONSE": "true",
+            "POWERTOOLS_TRACER_CAPTURE_ERROR": "true",
+            "LOG_LEVEL": "DEBUG"
           }
         },
         "Role": {

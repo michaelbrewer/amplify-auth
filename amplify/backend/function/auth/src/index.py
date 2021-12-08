@@ -19,6 +19,7 @@ class User:
 
 def get_user_by_token(token: str) -> Optional[User]:
     """Look a user by token"""
+    logger.debug(f"Token: {token}")
     if token == "admin":
         return User("1", True)
     elif token == "foo":
