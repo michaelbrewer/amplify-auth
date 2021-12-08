@@ -5,3 +5,9 @@ backend:
       commands:
         - update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python3.8 11
         - /usr/local/bin/pip3.8 install --user pipenv
+frontend:
+  phases:
+  artifacts:
+    baseDirectory: src/
+    files:
+      - '**/*'
