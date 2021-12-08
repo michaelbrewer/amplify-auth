@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "auth",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/michaelbrewer/projects/python/amplify-appsync-auth/amplify/backend/api/auth/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AWS_LAMBDA",
+      "lambdaFunction": "auth",
+      "ttlSeconds": "300"
+    }
+  }
+}
