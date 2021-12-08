@@ -1,0 +1,12 @@
+[
+  {
+    "category": "function",
+    "resourceName": "auth",
+    "service": "Lambda"
+  },
+  {
+    "category": "api",
+    "resourceName": "auth",
+    "service": "AppSync"
+  }
+]
